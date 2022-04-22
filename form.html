@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booku</title>
+    <link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-container">
+            <a href="catalog.html" class="back-btn">
+                <img src="images/arrow-kembali.svg" alt="Kembali ke Halaman Sebelumnya">
+                <span>Kembali</span>
+            </a>
+        </div>
+    </div>
+    
+    <section class="hero">
+        <div class="container">
+            <h1 class="judul-detail">Isi Detail Buku</h1>
+            <form action="#">
+                <label for="buku">Nama Buku</label><br>
+                <input type="text" id="buku" name="buku"><br>
+
+                <label for="penulis">Nama Penulis</label><br>
+                <input type="text" id="penulis" name="penulis"><br>
+
+                <label for="tahun">Tahun Terbit</label><br>
+                <input type="text" id="tahun" name="tahun"><br>
+
+                <label for="img-link">Link Gambar</label><br>
+                <input type="text" id="img-link" name="img-link"><br>
+
+                <label for="kategori">Kategori</label><br>
+                <select name="kategori" id="kategori">
+                    <option value="cat1">Kategori 1</option>
+                    <option value="cat2">Kategori 2</option>
+                    <option value="cat3">Kategori 3</option>
+                </select><br>
+
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
