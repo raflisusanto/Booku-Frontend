@@ -44,7 +44,8 @@ div.container h1.judul-detail {
 }
 
 div.container img {
-  width: 25%;
+  width: 200px;
+  height: 200px;
 }
 
 div.container div {
@@ -110,5 +111,26 @@ div.container input.submit {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 904px) {
+  h1.judul-detail {
+    padding-top: .5em;
+    text-align: left;
+  }
+  div.navbar a.back-btn {
+    margin-left: 4em;
+  }
+  div.container img {
+    margin-top: 1em;
+    width: 150px;
+    height: 150px;
+  }
+  div.container h1, div.container p {
+    margin: .5em;
+  }
+  div.container a.edit-btn {
+    margin-bottom: .5em;
+  }
 }
 /*# sourceMappingURL=details.css.map */

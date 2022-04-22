@@ -126,25 +126,82 @@ section.cat1 .cat-container, section.cat2 .cat-container, section.cat3 .cat-cont
 }
 
 section.cat1 .cat-container img, section.cat2 .cat-container img, section.cat3 .cat-container img {
-  width: 170px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 section.cat1 .cat-container .card, section.cat2 .cat-container .card, section.cat3 .cat-container .card {
-  width: 170px;
+  width: 130px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-size: .8em;
 }
 
-section.cat1 .cat-container .card h3, section.cat2 .cat-container .card h3, section.cat3 .cat-container .card h3 {
-  margin: 0;
+section.cat1 .cat-container .card h3, section.cat1 .cat-container .card p, section.cat2 .cat-container .card h3, section.cat2 .cat-container .card p, section.cat3 .cat-container .card h3, section.cat3 .cat-container .card p {
+  margin: .3em;
 }
 
 section.cat1 .cat-container .card .card-container, section.cat2 .cat-container .card .card-container, section.cat3 .cat-container .card .card-container {
   padding: 1em;
+}
+
+@media only screen and (max-width: 904px) {
+  .navbar .logo {
+    margin: 4em;
+  }
+  div.container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  div.container .ilustrasi {
+    width: 200px;
+    margin-bottom: .2em;
+  }
+  div.container div.left-col {
+    width: 100%;
+  }
+  div.container div.left-col h1 {
+    font-size: 1.5em;
+  }
+  div.container div.left-col p {
+    font-size: 1.2em;
+  }
+  div.container div.left-col a.button {
+    font-size: 1em;
+    padding: 1em;
+  }
+  section {
+    margin-left: 5.8em;
+  }
+  section.judul-container {
+    margin-left: 5.8em;
+    margin-right: 1em;
+  }
+  section.cat1, section.cat2, section.cat3 {
+    margin-right: 1em;
+  }
+  section.cat1 .cat-container img, section.cat2 .cat-container img, section.cat3 .cat-container img {
+    width: 120px;
+    height: 120px;
+  }
+  section.cat1 .cat-container .card, section.cat2 .cat-container .card, section.cat3 .cat-container .card {
+    font-size: .8em;
+    width: 120px;
+  }
+  section.cat1 .cat-container .card h3, section.cat2 .cat-container .card h3, section.cat3 .cat-container .card h3 {
+    margin: 0;
+  }
+  section.cat1 .cat-container .card .card-container, section.cat2 .cat-container .card .card-container, section.cat3 .cat-container .card .card-container {
+    padding: 1em;
+  }
+  section.cat1 .cat-container .card .card-container h3, section.cat1 .cat-container .card .card-container p, section.cat2 .cat-container .card .card-container h3, section.cat2 .cat-container .card .card-container p, section.cat3 .cat-container .card .card-container h3, section.cat3 .cat-container .card .card-container p {
+    margin: .3em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
