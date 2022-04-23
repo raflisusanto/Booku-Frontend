@@ -118,8 +118,14 @@ div.container input.submit {
     padding-top: .5em;
     text-align: left;
   }
+  div.navbar {
+    width: 120%;
+  }
   div.navbar a.back-btn {
     margin-left: 4em;
+  }
+  div.container {
+    margin: auto;
   }
   div.container img {
     margin-top: 1em;
@@ -127,7 +133,7 @@ div.container input.submit {
     height: 150px;
   }
   div.container h1, div.container p {
-    margin: .5em;
+    margin: .5em 0;
   }
   div.container a.edit-btn {
     margin-bottom: .5em;

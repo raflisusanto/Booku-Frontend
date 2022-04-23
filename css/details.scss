@@ -119,19 +119,21 @@ div.container {
         text-align: left;
     }
     div.navbar {
+        width: 120%;
         a.back-btn {
             margin-left: 4em;
         }
     }
 
     div.container {
+        margin: auto;
         img {
             margin-top: 1em;
             width: 150px;
             height: 150px;
         }
         h1, p {
-            margin: .5em;
+            margin: .5em 0;
         }
         
         a.edit-btn {

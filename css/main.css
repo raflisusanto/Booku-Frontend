@@ -151,7 +151,7 @@ section.cat1 .cat-container .card .card-container, section.cat2 .cat-container .
 
 @media only screen and (max-width: 904px) {
   .navbar .logo {
-    margin: 4em;
+    margin: 1.7em;
   }
   div.container {
     -webkit-box-orient: vertical;
@@ -164,7 +164,7 @@ section.cat1 .cat-container .card .card-container, section.cat2 .cat-container .
     margin-bottom: .2em;
   }
   div.container div.left-col {
-    width: 100%;
+    width: 150%;
   }
   div.container div.left-col h1 {
     font-size: 1.5em;
@@ -177,10 +177,10 @@ section.cat1 .cat-container .card .card-container, section.cat2 .cat-container .
     padding: 1em;
   }
   section {
-    margin-left: 5.8em;
+    margin-left: 3em;
   }
   section.judul-container {
-    margin-left: 5.8em;
+    margin-left: 3em;
     margin-right: 1em;
   }
   section.cat1, section.cat2, section.cat3 {
